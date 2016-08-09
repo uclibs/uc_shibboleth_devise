@@ -9,6 +9,7 @@ require "sprockets/railtie"
 
 Bundler.require(*Rails.groups)
 require "uc_shibboleth_devise"
+require "devise"
 
 module TestApp
   class Application < Rails::Application
